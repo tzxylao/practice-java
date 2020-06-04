@@ -9,6 +9,9 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
+/**
+ * @see <a href="https://www.w3cschool.cn/netty4userguide/ip8w1mu8.html">简易聊天客户端</a>
+ */
 public class SimpleChatClient {
     public static void main(String[] args) throws Exception {
         new SimpleChatClient("localhost", 8080).run();

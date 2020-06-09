@@ -15,6 +15,7 @@ public class StackExample {
         stack.add("2");
         stack.set(1, "4");
         stack.addElement("3");
+        stack.insertElementAt("5", 3);
         System.out.println(stack.capacity());
         int size = stack.size();
         for (int i = 0; i < size; i++) {

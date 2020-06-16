@@ -9,9 +9,12 @@ import cn.hutool.extra.tokenizer.TokenizerUtil;
 import cn.hutool.extra.tokenizer.Word;
 import cn.hutool.http.HttpUtil;
 import com.alibaba.fastjson.JSON;
+import com.github.javafaker.Faker;
+import com.github.javafaker.Name;
 
 import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * @author: laoliangliang
